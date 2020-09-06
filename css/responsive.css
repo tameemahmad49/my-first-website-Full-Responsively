@@ -1,0 +1,698 @@
+/* responsive css for responsive to all kind of devices and create a responsive website. */
+
+
+
+@media (max-width:1190px) {
+
+
+.about_us_paragraph {
+    line-height: 24px;
+    width: 518px;
+    font-size: 16px;
+  }
+  
+  .about_us_img {
+    max-width: 400px;
+  }
+  
+  
+  .contact_map {
+    width: 525px;
+    height: 292px;
+  }
+
+  .contact_rightSide input, textarea {
+    padding-right: 120px;
+  }
+  
+
+}
+
+
+@media (max-width:1050px) {
+
+
+nav ul {
+    padding: 0 11px;
+    line-height: 100px;
+  }
+  
+  nav ul li a {
+    padding: 7px 19px;
+  }
+  
+  .about_us_img {
+    margin-top: 267px;
+  }
+  
+  
+    .about_us_paragraph {
+      width: 447px;
+      font-size: 14px;
+    }
+
+
+    #homepage_slider {
+        position: relative;
+        top: -18px;
+    }
+  
+  
+  .team {
+    margin: 9px;
+  }
+  
+  .single_team_heading {
+    font-size: 22px;
+  }
+  
+  .team_paragraph_2 {
+    font-size: 18px;
+  }
+  
+  .team_paragraph {
+    line-height: 24px;
+    padding: 16px;
+    font-size: 15px;
+  }
+  
+  .contact_rightSide input, textarea {
+    padding: 11px;
+    padding-right: 110px;
+    margin: 7px;
+  }
+  
+  .contact_leftSide {
+    padding: 25px;
+  }
+  
+  .contact_rightSide {
+    margin-top: -85px;
+  }
+  
+
+}
+
+
+
+@media (max-width:950px) {
+
+
+
+
+  .about_us_img {
+    max-width: 322px;
+    margin-top: 200px;
+  }
+  .contact_map {
+    width: 440px;
+  }
+
+
+
+
+.team_heading {
+  padding: 80px;
+}
+
+
+  .contact_leftSide {
+    padding: 5px;
+    padding-right: 0;
+  }
+    .about_us_paragraph {
+    width: 415px;
+  }
+
+
+  .contact_rightSide input, textarea {
+    padding-right: 110px;
+  }
+
+  
+
+.contact_rightSide {
+  padding: 5px;
+  margin-right: 10px;
+  padding-left: 0;
+}
+
+
+  .about_us_heading {
+    margin-top: 50px;
+ 
+  }
+}
+
+
+
+
+@media (max-width:835px) {
+
+
+  .about_us_paragraph {
+    width: 383px;
+  }
+
+}
+
+
+
+@media (max-width:810px) {
+
+
+  .about_us_img {
+    max-width: 100%;
+  }
+  .about_us_paragraph {
+    width: 100%;
+    padding: 0 26px;
+  }
+  .contact_map {
+    width: 100%;
+    padding: 23px;
+  }
+  .contact_leftSide {
+    width: 100%;
+  }
+
+  .about_us_paragraph {
+    line-height: 28px;
+  }
+  .contact_map {
+    height: 378px;
+  }
+
+  .about_us_paragraph {
+    font-size: 16px;
+  }
+  .team {
+    margin: 93px;
+  }
+  .team_paragraph {
+    line-height: 36px;
+    padding: 47px;
+    font-size: 20px;
+  }
+  .single_team_heading {
+    font-size: 31px;
+  }
+  .team_paragraph_2 {
+    font-size: 27px;
+  }
+  .contact_rightSide {
+    margin-top: -790px;
+  }
+  #homepage_slider {
+    top: 0px;
+  }
+
+
+
+.about_img {
+  padding: 54px;
+  padding-bottom: 100px;
+}
+
+.about_us_total_controler {
+  padding: 0 40px;
+  margin-top: 0;
+}
+
+.about_us_heading {
+  text-align: center;
+  margin-bottom: 7px;
+  right: 0;
+}
+
+nav {
+  height: 66px;
+}
+
+nav a.logo {
+  line-height: 46px;
+  font-size: 27px;
+}
+
+.checkbtn {
+  margin-top: 18px;
+}
+
+  .checkbtn {
+    font-size: 26px;
+  }
+  #check:checked ~ ul {
+    top: 64px;
+  }
+
+
+
+.team_heading {
+  margin-right: 0;
+}
+
+#contact_main {
+  height: 1051px;
+  margin-top: 0;
+}
+
+.contactUs_heading {
+  margin-right: 0;
+}
+
+.contact_map {
+  margin-top: 241px;
+}
+
+.contact_leftSide {
+  margin-top: -74px;
+}
+
+
+.portfolio-area h2 {
+  margin-right: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:650px) {
+
+
+  .about_us_heading {
+  }
+  .about_us_img {
+    margin-top: 0px;
+  }
+  .contact_rightSide {
+    padding: 18px;
+  }
+
+  .about_us_paragraph {
+    font-size: 14px;
+  }
+  .team_paragraph {
+    line-height: 30px;
+    padding: 24px;
+    font-size: 15px;
+  }
+  .single_team_heading {
+    font-size: 27px;
+  }
+  .team_paragraph_2 {
+    font-size: 25px;
+  }
+  .team {
+    margin: 42px;
+  }
+
+
+  .contact_rightSide input, textarea {
+    padding-right: 93px;
+  }
+
+
+
+.contact_button {
+  padding: 6px 33px;
+  font-size: 24px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:590px) {
+
+
+
+  .about_img {
+    padding: -4px;
+    padding-bottom: 59px;
+  }
+  .about_us_paragraph {
+    padding: 0 0px;
+  }
+  .contact_map {
+    margin-top: 432px;
+  }
+  .contact_map {
+    padding: 7px;
+  }
+  .contact_map {
+    height: 275px;
+  }
+  .contact_leftSide {
+    margin-top: -107px;
+  }
+  .contact_rightSide {
+    margin-top: -741px;
+  }
+
+
+  .contact_rightSide {
+    padding: 57px;
+    padding-right: 209px;
+    padding-left: 2px;
+  }
+
+
+
+  .portfolio-area {
+    margin-top: 590px;
+  }
+
+
+
+#return-to-top {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+#return-to-top i {
+  left: 14px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+
+
+.contactUs_heading {
+  padding: 98px;
+}
+
+
+  .contact_leftSide {
+    margin-top: -80px;
+  }
+  .portfolio-area {
+    margin-top: 645px;
+  }
+  .contact_rightSide {
+    padding-left: 20px;
+  }
+
+
+  .about_img {
+    padding: 3px;
+  }
+  nav a.logo {
+    font-size: 22px;
+  }
+  .checkbtn {
+    font-size: 21px;
+  }
+  .checkbtn {
+    margin-top: 23px;
+  }
+
+
+
+nav a.logo {
+  margin-left: 9px;
+}
+
+  .checkbtn {
+    margin-right: 21px;
+  }
+
+
+
+  nav ul li {
+    line-height: 12px;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:420px) {
+
+
+  .contact_rightSide input, textarea {
+    padding: 7px;
+    margin: 6px;
+  }
+
+
+  .contact_rightSide input, textarea {
+    padding-right: 17px;
+  }
+  .single_team_heading {
+    font-size: 24px;
+  }
+  .team_paragraph_2 {
+    font-size: 22px;
+  }
+  .team_paragraph {
+    line-height: 25px;
+    padding: 14px;
+  }
+
+
+  .portfolio-area {
+    margin-top: 785px;
+  }
+  .contactUs_heading {
+    padding: 60px;
+    padding-bottom: 77px;
+  }
+  .contact_leftSide {
+    margin-top: -75px;
+  }
+
+
+  .contact_rightSide {
+    padding-right: 189px;
+  }
+  .contact_map {
+    margin-top: 383px;
+  }
+  .contact_rightSide {
+    margin-top: -704px;
+  }
+
+
+  #contact_main {
+    height: 962px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:350px) {
+  
+
+  .contact_map {
+    height: 225px;
+  }
+  .contact_map {
+    padding: 2px;
+  }
+
+
+  .contact_rightSide {
+    padding-right: 144px;
+  }
+  .contact_rightSide {
+    margin-top: -651px;
+  }
+  .contactUs_heading {
+    padding: 31px;
+  }
+  #contact_main {
+    height: 871px;
+  }
+  .portfolio-area {
+    margin-top: 680px;
+  }
+
+
+  .contact_rightSide {
+    padding-left: 0;
+  }
+  .about_img {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+
+
+  .team {
+    margin: 36px 7px;
+  }
+
+
+  .team_heading {
+    padding: 31px;
+  }
+  .about_us_heading {
+    margin-top: 51px;
+  }
+
+
+  .about_us_paragraph {
+    line-height: 24px;
+  }
+  .about_us_total_controler {
+    padding: 0 15px;
+  }
+
+
+  .about_us_paragraph {
+    width: 100%;
+  }
+
+
+
+  #all_team {
+    margin: 1em;
+  }
+
+
+
+.about_img {
+  margin: auto;
+}
+
+.contact_leftSide {
+	margin-top: -40px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:305px) {
+
+
+  .contact_rightSide input, textarea {
+    padding-right: 18px;
+  }
+
+
+  .contact_rightSide {
+    margin-top: -646px;
+  }
+  .contact_rightSide {
+    padding-right: 94px;
+  }
+
+
+  nav a.logo {
+    font-size: 20px;
+  }
+  nav a.logo {
+    margin-left: -1px;
+  }
+  .checkbtn {
+    margin-right: 16px;
+  }
+  .checkbtn {
+    font-size: 19px;
+  }
+
+
+  #return-to-top {
+    width: 35px;
+    height: 35px;
+  }
+  #return-to-top i {
+    left: 10px;
+  }
+
+
+
+#return-to-top i {
+  top: 7px;
+  font-size: 16px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

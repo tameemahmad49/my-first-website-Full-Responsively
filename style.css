@@ -1,0 +1,370 @@
+*
+ {
+	 margin:0;
+	 padding:0;
+	 text-decoration:none;
+	 box-sizing:border-box;
+	 list-style:none;
+	 box-sizing:border-box;
+
+	 
+	 }
+	 
+	 
+.web_width{
+	max-width:1170px;
+	margin:auto;
+	
+}
+	
+.section_padding:{
+	padding-top:60px;
+	padding-bottom:60px;
+	
+}	
+
+
+#ourPortfolio {
+	padding-bottom: 0px;
+}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+body{
+	font-family:sans-sarif;
+	background:#dfe6e9;
+	
+}
+	 
+nav a.logo{
+	line-height:80px;
+   padding:42 50px;
+	font-size: 35px;
+	color:black;
+	float:left;
+	font-weight:900;
+	margin-left:20px;
+	
+	
+	text-shadow: 0px 3px 0px #a09e99, 0px 25px 10px rgba(0,0,0,0.15), 0px 12px 2px rgba(0,0,0,0.1), 0px 13px 6px rgba(0,0,0,0.1);
+	
+	
+	
+	
+	
+    	
+	 }
+	 
+	 
+nav{
+	background:#707d69;
+	width: 100%;
+	height:83px;
+	z-index: 1;
+
+	
+}
+
+nav ul {
+	padding: 0 50px;
+	float:right;
+	line-height: 80px;
+}
+
+
+nav ul li{
+	display:inline-block;
+	
+	
+}
+
+
+nav ul li a{
+       font-size:15px;
+	   border-radius:3px;
+	   padding: 7px 23px;
+	   text-transform: uppercase;
+	   color: white;
+	   transition: 0.5s;
+	   	border-radius:13px;
+	
+}
+
+
+
+li a.active,li a:hover{
+      
+	   background:black;
+	   
+	   
+	   	 
+	 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+	
+}
+
+.checkbtn{
+	   float:right;
+	   display:none;
+	   margin-top:30px;
+}
+
+#check{
+	display:none;
+}
+
+
+@media (max-width: 901px){
+	   
+  a.logo{
+	   line-height:70px;
+       padding:10px;
+	   font-size: 30px;
+	    color:black;
+	     float:left;
+	   font-weight:800;
+      	position:left;
+	
+    	
+	 }
+
+
+	   nav ul li a{
+		   font-size: 10px;
+		
+		}
+}
+
+@media (max-width: 810px){
+	   
+	    .checkbtn{
+	   
+	   display:block;
+	   margin-right:30px;
+	   font-size:30px;
+	   cursor:pointer;
+	  
+}
+    ul{
+     position:fixed;
+	 top: 83px;
+	 text-align:center;
+	 width:100%;
+	 height:100vh;
+	 background:#6b8e6b;
+	 
+	 
+	 left:-100%;
+	 transition:all 0.5s;
+	 
+	 
+	}
+	
+	
+	.logo{
+		
+		
+		font-weight:400;
+		
+	
+	}
+	
+	
+	nav ul li{
+		 display:block;
+		 line-height:30px;
+		 margin:50px 0;
+		 
+	}
+	
+	
+	
+	 	nav ul li a{
+		font-size:15px;
+	}
+	 
+	 
+     #check:checked  ~  ul  {
+		 left:0;
+		 z-index:9999;
+	 }
+	
+}
+
+
+/*----- Banner CSS Start ----*/
+
+#homepage_slider{
+	  
+}
+
+/*----- Banner CSS End ----*/
+
+
+
+
+/*----- About us CSS Start ----*/
+
+
+.about_us_img{
+	max-width:406px;
+	padding:0px;
+	float:left;
+	margin-top:229px;
+}
+
+.about_img{
+    width:100%;	
+    /*! padding: -1px; */
+}
+
+
+.about_us_total_controler{
+	padding: 40px;
+    margin-top: 100px;
+
+
+   
+}
+.about_us_heading{
+	font-family: 'Ultra', serif;
+  margin-top: 112px;
+  font-size: 30px;
+	/*! padding: 35px; */
+	/*! text-align: left; */
+	margin-bottom: 40px;
+	position: relative;
+	right: -30px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+.about_us_paragraph{
+	font-family: 'Old Standard TT', serif;
+	line-height: 26px;
+	float: right;
+	width: 656px;
+	margin-top: 25px;
+
+
+	
+	
+	
+}
+
+.about_us_button {
+	font-family: arial;
+	padding: 14px;
+	padding-right: 14px;
+	padding-left: 14px;
+	margin-top: 22px;
+	padding-right: 15px;
+	padding-left: 25px;
+	background: #707d69;
+	color: white;
+	border: 1px #363e3e;
+	transition: 0.5s;
+	cursor: pointer;
+	border-radius: 13px;
+	font-size: 15px;
+}
+
+
+.about_us_button:hover{
+
+	background: black;
+	color: white;
+	border: 1px #363e3e;
+	cursor: pointer;
+	
+	
+		 
+	 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+@media (max-width: 810px){
+	.about_us_paragraph{
+	font-family: 'Old Standard TT', serif;
+	line-height: 26px;
+	float: right;
+	width: 427px;
+	margin-top: 20px;
+}
+
+
+/*----- About us CSS End ----*/
+
+
+/*----- Contact us CSS Start ----*/
+
+#contact_main{
+	background: linear-gradient(rgba (0,0,0,0.6),rgba (0,0,0,0.9)),url(img/contact/contactimg.jpg);
+	
+}
+
+
+
+
+
+
+/*----- Contact us CSS End ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

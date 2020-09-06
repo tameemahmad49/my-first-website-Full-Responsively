@@ -1,0 +1,139 @@
+
+.portfolio-area{
+    padding:60px 0px;
+    background:#f1f1f1;
+	margin-top: 500px;
+}
+@media (max-width: 810px){
+    .portfolio-area{
+			padding:60px 0px;
+			background:#f1f1f1;
+			margin-top: 530px;
+}
+}
+.portfolio-area h2{
+    text-align: center;
+    margin-bottom:73px;
+    font-size:30px;
+	margin-right: 37px;
+}
+.single-item{
+    display: inline-block;
+    vertical-align: middle;
+    width:25%;
+    margin:-2px;
+    position: relative;
+}
+.img-thumbnail img{
+    width:100%;
+}
+.img-content{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background:#8679629c;
+    transition: .4s;
+    cursor: pointer;
+    transform: scaleY(0);
+    transform-origin: center center;
+    opacity:0;
+}
+.single-item:hover .img-content{
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+	
+	
+		 
+	 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+.img-content h2{
+    color:red;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom:10px;
+}
+.img-content p{
+    color:#fff;
+    font-size: 18px;
+    padding:0px 25px;
+}
+
+/*Controls CSS*/
+button:focus{
+    outline: none;
+}
+.controls{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.controls button {
+	background: #000;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 10px 23px;
+	margin-bottom: 5px;
+	transition: .4s;
+	border-radius: 13px;
+}
+.controls button:hover, button.mixitup-control-active {
+	background: #707d69;
+	cursor: pointer;
+	border-radius: 13px;
+	
+	
+		 
+	 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+/* Responsive CSS */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+    .single-item{
+        width:100%;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .single-item{
+        width:50%;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .single-item{
+        width:33.33%;
+    }
+    
+}
+

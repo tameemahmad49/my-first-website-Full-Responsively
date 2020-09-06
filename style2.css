@@ -1,0 +1,376 @@
+/*----- Team Section CSS Start ----*/
+
+#all_team{
+	display:flex;
+	width:auto;
+	text-align:center;
+	margin:2em;
+
+	
+}
+
+
+@media (max-width: 810px){
+	
+#all_team{
+	display:flex;
+	width:auto;
+	text-align:center;
+	margin:2em;
+	flex-wrap:wrap;
+
+	
+}
+}
+
+
+#team_section{
+
+
+}
+
+
+.team {
+	background: #707d69;
+	margin: 30px;
+	transition: 0.5s;
+	margin-top: -30px;
+	border-radius: 13px;
+}
+
+
+
+
+
+.team_heading{
+	text-align:center;
+    padding:150px;
+	margin-right: 67px;
+}
+
+
+.team_paragraph{
+		font-family: 'Old Standard TT', serif;
+        line-height: 26px;
+		padding:20px;
+		color:white;
+}
+
+
+.team_div_img img{
+	width: 30%;
+	border-radius: 55px;
+	position: relative;
+	top: -40px;
+	border: 2px solid #88f7d3;
+
+
+}
+
+
+.team_paragraph_2{
+	font-size:20px;
+    font-family: 'Old Standard TT', serif;
+	color: #89f7d3;
+}
+
+
+
+.single_team_heading{
+	font-size:25px;
+	font-family:arial black;
+}
+
+
+
+
+.team:hover{
+     background:#70918e;
+     cursor:pointer;
+	 
+	 
+	 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+
+/*----- Team Section CSS End ----*/
+
+
+
+
+
+
+
+
+
+/*----- Contact us CSS Start ----*/
+
+#contact_main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(img/contact/contactimg.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 750px;
+    margin-top: 249px;
+}
+.web_width {
+    /*! width: ; */
+}
+.contactUs_heading {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.total_contact {
+}
+.contact_leftSide {
+	color: white;
+	float: left;
+	padding: 40px;
+	margin-top: -161px;
+}
+.contact_rightSide {
+	float: right;
+	padding: 21px;
+	margin-top: -138px;
+}
+.contact_button {
+    padding: 6px 39px;
+    background: #707d69;
+    border: 1px solid #707d69;
+    margin-left: 11px;
+    margin-top: 8px;
+    border-radius: 13px;
+    color: white;
+    font-size: 27px; /*! font-weight: 900; */
+	transition:0.4s;
+}
+.contact_leftSide i {
+    padding: 6px;
+    margin-top: 6px;
+}
+.contact_leftSide span {
+}
+
+.contact_rightSide input,
+textarea {
+    padding: 13px;
+    padding-right: 205px;
+    margin: 11px;
+    width: 100%; /*! display: revert; */ /*! position: absolute; */
+}
+.contact_rightSide textarea {
+}
+
+
+.contact_rightSide:hover input,
+textarea {
+		 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.contactUs_heading {
+	padding: 134px;
+	margin-bottom: 57px;
+	margin-top: 147px;
+	margin-right: 80px;
+}
+.contact_button:hover {
+cursor:pointer;
+background:black;
+
+
+	 
+	 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.contact_map{
+	width:
+	height:;
+	width: 601px;
+	margin-top: 22px;
+	height: 309px;
+}
+
+/*----- Contact us CSS End ----*/
+
+
+
+/*----- Scroll to top us CSS Start ----*/
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #707d69;
+
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+	    background: rgb(0, 0, 0);
+		
+		
+			 
+	 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+	
+	
+		 
+	 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+
+/*----- Scroll to top us CSS End ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
